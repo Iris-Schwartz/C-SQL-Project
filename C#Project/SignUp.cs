@@ -37,7 +37,7 @@ namespace C_Project
 
                 int numRows = dt.Rows.Count;
 
-                return (numRows - 1); 
+                return numRows; 
             }
             
         }
