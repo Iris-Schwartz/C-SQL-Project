@@ -1,0 +1,20 @@
+using Microsoft.Data.SqlClient;
+using System; 
+
+namespace C_Project
+{
+    internal static class Program
+    {
+    
+        [STAThread]
+        static void Main()
+        {
+            // To customize application configuration such as set high DPI settings or default font,
+            // see https://aka.ms/applicationconfiguration.
+            ApplicationConfiguration.Initialize();
+            Application.Run(new Form1());
+          
+
+        }
+    }
+}
